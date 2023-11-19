@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: c5638574a056e4ce58b02cfc85598d25
+  productGUID: 5cf9d23c0a9a7864c88a9080883dbed3
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Shooter
+  productName: War Zone
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -674,14 +674,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Shooter
+  metroPackageName: War Zone
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Shooter
+  metroApplicationDescription: War Zone
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -748,13 +748,13 @@ PlayerSettings:
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: b1471d5a-065e-4b86-a1a9-dab26facd1b2
+  cloudProjectId: 6a45f9ba-1bf1-47bc-8407-7a9bf95592c4
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Shooter 2023-11-17_11-27-22
-  organizationId: abdullahx9000
+  projectName: War Zone
+  organizationId: callmo
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
