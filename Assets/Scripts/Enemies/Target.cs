@@ -12,6 +12,7 @@ public class Target : MonoBehaviour
     private void Start()
     {
         defaultHealth = health;
+
     }
     public void TakeDamage(float amount)
     {
@@ -19,6 +20,7 @@ public class Target : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            ScoreManager.instance.AddPoint();
         }
     }
     void Die()

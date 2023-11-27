@@ -20,6 +20,7 @@ public class Weapon : MonoBehaviour
         {
             nextTimeToFire = Time.time + 1f / firingRate; // Sets the next time to fire to the current time plus 1 divided by the firing rate
             Shoot(); // Calls the Shoot function
+
         }
     }
 
