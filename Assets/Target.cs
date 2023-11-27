@@ -26,7 +26,7 @@ public class Target : MonoBehaviour
         if (isTargetPractice)
         {
             health = defaultHealth;
-            gameObject.transform.position = new Vector3(UnityEngine.Random.Range(-22, 22), UnityEngine.Random.Range(3, 15), UnityEngine.Random.Range(-23, -10));
+            gameObject.transform.position = new Vector3(UnityEngine.Random.Range(-127, -75), UnityEngine.Random.Range(2, 12), UnityEngine.Random.Range(-22, -8));
         }
         else
         {
