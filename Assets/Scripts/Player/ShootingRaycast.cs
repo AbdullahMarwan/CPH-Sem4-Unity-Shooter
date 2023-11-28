@@ -16,6 +16,7 @@ public class ShootingRaycast : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+
             RaycastHit hit;
             shotSound.Play();
 

@@ -30,6 +30,7 @@ public class Weapon : MonoBehaviour
     void Shoot()
     {
         RaycastHit hit; // Creates a RaycastHit variable
+
         if (Physics.Raycast(FPSCam.transform.position, FPSCam.transform.forward, out hit, range)) // Checks if the raycast hits something
         {
             Debug.Log(hit.transform.name);
