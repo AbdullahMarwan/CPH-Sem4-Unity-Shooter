@@ -14,10 +14,13 @@ public class Weapon : MonoBehaviour
     public Camera FPSCam;
     private float nextTimeToFire = 0f;
 
+
+
     private void Update()
     {
         if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire) // Checks if the player is holding down the left mouse button and if the current time is greater than or equal to the next time to fire
         {
+
             nextTimeToFire = Time.time + 1f / firingRate; // Sets the next time to fire to the current time plus 1 divided by the firing rate
             Shoot(); // Calls the Shoot function
 
